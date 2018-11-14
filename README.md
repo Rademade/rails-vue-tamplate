@@ -1,24 +1,28 @@
-# README
+# Rails Vue template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Current Stack:
+- Ruby 2.4.5
+- Rails 5.2.1
+- Postgres
+- Puma
+- Sidekiq + Sidekiq-Scheduler
 
-Things you may want to cover:
+# What is included:
 
-* Ruby version
+- Rspec as Default testing framework
+- Rubocop with custom configuration
+- Eslint with vue/recommended and airbnb-base rules
+- Procfile for Heroku Deployment
+- Webpacker version 3 basic config + enabled PostCss Loader
+- Docker-compose setup for local development
+- Basic Vue project structure with Vuex, Vue-Router and basic services (Api and Authentification with JWT)
+- Overcommit commit to run rubocop and eslint on every commit
+```
+gem install overcommit
+overcommit --install
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# TODO:
+- [] Implement JWT Authentification on the backend ()
+- [] Docker configuration for Rademade Docker Swarm env
+- [] Performance, Security auto tools (bullet, etc...)
