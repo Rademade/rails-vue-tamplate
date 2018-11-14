@@ -1,0 +1,24 @@
+ru:
+  activerecord:
+    models:
+      user:
+        one: "Аккаунт"
+        other: "Аккаунты"
+      account:
+        one: "Счет"
+        other: "Счета"
+    attributes:
+      user:
+        created_at: "Дата создания"
+        full_name: "ФИО"
+        email: "Эл. почта"
+        contract_id: "№ договора"
+        accounts_amount: "Количество счетов"
+        password: "Пароль"
+      account:
+        statement_account_id: "Номер счета"
+        currency: "Валюта"
+        success_percent: "Процент за успех"
+        management_percent: "Процент за управление активами"
+        minimal_profit_percent: "Минимальный показатель доходности"
+        data_source: "Тип получения данных"
