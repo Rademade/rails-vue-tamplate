@@ -42,9 +42,6 @@ gem 'webpacker'
 gem 'sidekiq'
 gem 'sidekiq-scheduler'
 
-# JWT Auth
-gem 'knock'
-
 # Pagination
 gem 'kaminari'
 
