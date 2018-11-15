@@ -27,3 +27,4 @@ overcommit --install
 - [ ] Circle CI integration
 - [ ] Docker configuration for Rademade Docker Swarm env
 - [ ] Performance, Security auto checking tools (bullet, etc...)
+- [ ] Add test coverage tools (SimpleCov)
