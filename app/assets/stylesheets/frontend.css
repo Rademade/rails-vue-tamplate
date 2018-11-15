@@ -3,6 +3,5 @@
 *= require ./frontend/font-face.css
 *= require ./core/reset.css
 *= require ./frontend/main.css
-*= require ./libs/datepicker.css
 *= require_self
 */

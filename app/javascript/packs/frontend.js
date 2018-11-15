@@ -6,7 +6,7 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Loading from 'vue-loading-overlay'
 import 'vue-loading-overlay/dist/vue-loading.css'
-import store from '../store/index'
+import store from '../frontend/store'
 import VueMoment from 'vue-moment'
 import VueLodash from 'vue-lodash';
 

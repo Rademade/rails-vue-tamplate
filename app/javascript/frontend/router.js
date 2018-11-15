@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import AppLayout from '@frontend/core/components/AppLayout';
-import { SIGN_ROUTER } from '@frontend/sign/router';
+import { SIGN_ROUTER } from '@frontend/modules/sign/router';
 
 Vue.use(Router);
 
