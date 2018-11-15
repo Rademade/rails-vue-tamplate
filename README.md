@@ -23,7 +23,7 @@ overcommit --install
 ```
 
 # TODO:
-- [ ] Implement JWT Authentification on the backend (prererably sourcery)
+- [ ] Implement JWT Authentification on the backend (preferably 'sorcery' gem)
 - [ ] Circle CI integration
 - [ ] Docker configuration for Rademade Docker Swarm env
 - [ ] Performance, Security auto checking tools (bullet, etc...)
