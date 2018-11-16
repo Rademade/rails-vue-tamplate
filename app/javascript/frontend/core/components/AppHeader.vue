@@ -15,11 +15,6 @@
         <template v-if="loggedIn">
           <div class="header__box header__box--data">
             <div class="header__item">
-              <div class="header__item-box header__item-box--select">
-                <Select :accounts="accounts" v-if="accounts.length" />
-              </div>
-            </div>
-            <div class="header__item">
               <div class="header__item-box header__item-box--profile">
                 <Profile :name="currentUser.full_name"/>
               </div>
@@ -42,19 +37,16 @@
 </template>
 
 <script>
-import Select from '@frontend/core/components/header/Select';
 import Profile from '@frontend/core/components/header/Profile';
 import userAuthService from '@frontend/core/services/userAuthService';
 import { mapGetters } from 'vuex'
 
 export default {
   components: {
-    Select,
     Profile
   },
 
   computed: {
-    ...mapGetters(['accounts']),
     loggedIn: function() {
       return (this.$route.path != "/sign");
     },

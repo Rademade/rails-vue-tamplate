@@ -1,4 +1,4 @@
-import Sign from '@frontend/sign/Sign';
+import Sign from '@frontend/modules/sign/Sign';
 import alreadyAuthorized from '@frontend/core/services/alreadyAuthorized'
 
 export const SIGN_ROUTER = {
