@@ -22,9 +22,16 @@ gem install overcommit
 overcommit --install
 ```
 
+# Installation
+- Clone repository
+- Rename root folder according the name of the project
+- Change database name `/config/database.yml`
+- Rename module in `/config/application.rb`
+- Create and migrate database
+
 # TODO:
 - [ ] Implement JWT Authentification on the backend (preferably 'sorcery' gem)
 - [ ] Circle CI integration
 - [ ] Docker configuration for Rademade Docker Swarm env
 - [ ] Performance, Security auto checking tools (bullet, etc...)
-- [ ] Add test coverage tools (SimpleCov)
+- [ ] Add test coverage tools (SimpleCov) 
