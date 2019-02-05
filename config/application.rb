@@ -17,7 +17,11 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module RailsVueTemplate
+Dotenv::Railtie.load
+
+application_module = Object.const_set(ENV['APPLICATION_NAME'].camelize, Module.new)
+
+application_module.module_eval do
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
