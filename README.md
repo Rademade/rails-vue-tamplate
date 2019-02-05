@@ -22,6 +22,9 @@ gem install overcommit
 overcommit --install
 ```
 
+# Installation
+Set your application name in `.env` file.
+
 # TODO:
 - [ ] Implement JWT Authentification on the backend (preferably 'sorcery' gem)
 - [ ] Circle CI integration
