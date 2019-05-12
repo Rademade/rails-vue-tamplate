@@ -1,8 +1,8 @@
 # Rails Vue template
 
 # Current Stack:
-- Ruby 2.4.5
-- Rails 5.2.1
+- Ruby 2.5.5
+- Rails 5.2.3
 - Postgres
 - Puma
 - Sidekiq + Sidekiq-Scheduler

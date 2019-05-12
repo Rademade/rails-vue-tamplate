@@ -1,4 +1,4 @@
-FROM ruby:2.4.5
+FROM ruby:2.5.5
 RUN apt-get update && \
     apt-get install -y openssh-client build-essential wget git-core libssl-dev libxml2 libxml2-dev libxslt1-dev imagemagick libmagickcore-dev libmagickwand-dev libpq-dev && \
     (curl -sS https://deb.nodesource.com/setup_9.x | bash -) && \
